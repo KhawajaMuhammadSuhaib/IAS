@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 import Icon from '@mdi/react';
 import { mdiAccountOutline } from '@mdi/js';
-import logo from '../Logos/ForgetLogo.svg';
-import '../StyleSheets/web.css';
-import PopUp from '../Components/PopUp';
+import logo from '../../Logos/ForgetLogo.svg';
+import '../../StyleSheets/web.css';
+import PopUp from '../../Components/PopUp';
 
 function ForgetPassword() {
     const [show, setShow] = useState(false)

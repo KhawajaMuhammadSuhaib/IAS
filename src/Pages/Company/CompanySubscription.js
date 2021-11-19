@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
-import CompanySideBar from '../Components/CompanySideBar';
-import NavBar from '../Components/Navbar'
-import UserContext from '../Context/User';
+import CompanySideBar from '../../Components/CompanySideBar';
+import NavBar from '../../Components/Navbar'
+import UserContext from '../../Context/User';
 import axios from 'axios';
 import { useHistory } from 'react-router';
 export default function PaymentAndSubscription() {

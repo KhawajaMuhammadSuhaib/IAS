@@ -2,14 +2,14 @@ import React, { useState, useEffect, useContext } from 'react';
 import { DatePicker, Space } from 'antd';
 import Icon from '@mdi/react';
 import { mdiCheckCircleOutline, mdiPencilOutline, mdiTrashCanOutline, } from '@mdi/js';
-import ApplicantSideBar from '../Components/ApplicantSideBar';
-import Password from '../Components/PasswordFeild';
-import dp from '../Logos/dp.jpeg'
-import NavBar from '../Components/Navbar';
-import UserContext from '../Context/User';
+import ApplicantSideBar from '../../Components/ApplicantSideBar';
+import Password from '../../Components/PasswordFeild';
+import dp from '../../Logos/dp.jpeg'
+import NavBar from '../../Components/Navbar';
+import UserContext from '../../Context/User';
 import axios from 'axios';
 import { useHistory } from 'react-router';
-import PopUp from "../Components/PopUp"
+import PopUp from "../../Components/PopUp"
 import { FilePond, registerPlugin } from "react-filepond";
 import "filepond/dist/filepond.min.css";
 import 'antd/dist/antd.css';

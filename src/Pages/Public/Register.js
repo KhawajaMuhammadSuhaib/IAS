@@ -4,10 +4,9 @@ import axios from 'axios';
 import 'antd/dist/antd.css';
 import Icon from '@mdi/react';
 import { mdiAccountOutline, mdiEmailOutline, mdiLockOutline, mdiEyeOffOutline, mdiEyeOutline } from '@mdi/js'
-import logo from '../Logos/RegisterLogo.svg'
-import '../StyleSheets/web.css';
-import PopUp from '../Components/PopUp';
-import Popup from 'reactjs-popup';
+import logo from '../../Logos/RegisterLogo.svg'
+import '../../StyleSheets/web.css';
+import PopUp from '../../Components/PopUp';
 
 function Register() {
     var pass = /(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/g

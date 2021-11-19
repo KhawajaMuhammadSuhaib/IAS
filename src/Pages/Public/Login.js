@@ -3,11 +3,11 @@ import { useHistory } from 'react-router';
 import axios from 'axios'
 import Icon from '@mdi/react';
 import { mdiAccountOutline, mdiLockOutline, mdiEyeOffOutline, mdiEyeOutline } from '@mdi/js';
-import logo from '../Logos/LoginLogo.svg';
-import '../StyleSheets/web.css';
+import logo from '../../Logos/LoginLogo.svg';
+import '../../StyleSheets/web.css';
 import jwt from 'jsonwebtoken'
-import UserContext from '../Context/User';
-import { storeToken } from '../Cache/User'
+import UserContext from '../../Context/User';
+import { storeToken } from '../../Cache/User'
 
 function Login() {
     const { user, setUser } = useContext(UserContext);
@@ -43,7 +43,7 @@ function Login() {
                 console.log((res))
                 const data = jwt.decode(res.data.token);
                 setUser(res.data);
-                storeToken(res.data.token);
+                storeToken(data);
                 setValidation(false);
                 if(res.data.user.userType==='applicant'){
                     History.push('/ApplicantProfile')

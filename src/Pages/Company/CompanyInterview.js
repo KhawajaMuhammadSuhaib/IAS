@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import CompanySideBar from '../Components/CompanySideBar'
-import NavBar from '../Components/Navbar'
-import InterviewSettings from '../Components/InterviewFlowSetting'
+import CompanySideBar from '../../Components/CompanySideBar'
+import NavBar from '../../Components/Navbar'
+import InterviewSettings from '../../Components/InterviewFlowSetting'
 import Icon from '@mdi/react';
-import InterviewCard from '../Components/InterviewCard'
+import InterviewCard from '../../Components/InterviewCard'
 import { mdiArrowLeft } from '@mdi/js';
 
 

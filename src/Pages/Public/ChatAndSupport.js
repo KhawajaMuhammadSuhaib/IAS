@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import NavBar from '../Components/Navbar';
-import CompanySideBar from '../Components/CompanySideBar';
+import NavBar from '../../Components/Navbar';
+import CompanySideBar from '../../Components/CompanySideBar';
 
 
 export default function ChatAndSupport() {

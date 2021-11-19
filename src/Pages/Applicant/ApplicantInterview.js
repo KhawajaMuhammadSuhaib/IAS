@@ -1,6 +1,6 @@
 import React from 'react';
-import ApplicantSideBar from '../Components/ApplicantSideBar';
-import NavBar from '../Components/Navbar';
+import ApplicantSideBar from '../../Components/ApplicantSideBar';
+import NavBar from '../../Components/Navbar';
 
 export default function ApplicantInterview() {
     return (

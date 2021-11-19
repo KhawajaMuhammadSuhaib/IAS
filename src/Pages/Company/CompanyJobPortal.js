@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useContext } from 'react';
-import NavBar from '../Components/Navbar';
-import CompanySideBar from '../Components/CompanySideBar';
-import AddJobCard from '../Components/AddJobCard';
-import UpdateJob from '../Components/UpdateJob';
+import NavBar from '../../Components/Navbar';
+import CompanySideBar from '../../Components/CompanySideBar';
+import AddJobCard from '../../Components/AddJobCard';
+import UpdateJob from '../../Components/UpdateJob';
 import Icon from '@mdi/react';
 import { mdiMagnify, mdiPlus, mdiPencilOutline, mdiTrashCanOutline, mdiDotsVertical } from '@mdi/js';
-import CompanyJobCard from '../Components/CompanyJobCard';
-import UserContext from '../Context/User';
+import CompanyJobCard from '../../Components/CompanyJobCard';
+import UserContext from '../../Context/User';
 import { useHistory } from 'react-router';
 import axios from 'axios';
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import AdminSideBar from '../Components/AdminSideBar'
-import NavBar from '../Components/Navbar'
+import AdminSideBar from '../../Components/AdminSideBar'
+import NavBar from '../../Components/Navbar'
 import Icon from '@mdi/react';
 import { mdiTrashCan } from '@mdi/js';
 

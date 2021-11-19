@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react'
 import { Route, BrowserRouter as Router } from "react-router-dom"
-import Register from "./Pages/Register";
-import Login from "./Pages/Login";
-import ApplicantProfile from "./Pages/ApplicantProfile";
-import ForgetPassword from "./Pages/ForgetPassword";
-import ChangePassword from "./Pages/ChangePassword";
-import CompanyProfile from "./Pages/CompanyProfile";
-import CompanyJobPortal from "./Pages/CompanyJobPortal";
-import ApplicantJobPortal from "./Pages/ApplicantJobPortal";
-import PaymentAndSubscription from "./Pages/CompanySubscription";
-import ChatAndSupport from './Pages/ChatAndSupport';
-import ApplicantInterview from './Pages/ApplicantInterview';
-import CompanyInterview from './Pages/CompanyInterview';
-import AdminDashboard from './Pages/AdminDashboard';
+import Register from "./Pages/Public/Register";
+import Login from "./Pages/Public/Login";
+import ApplicantProfile from "./Pages/Applicant/ApplicantProfile";
+import ForgetPassword from "./Pages/Public/ForgetPassword";
+import ChangePassword from "./Pages/Public/ChangePassword";
+import CompanyProfile from "./Pages/Company/CompanyProfile";
+import CompanyJobPortal from "./Pages/Company/CompanyJobPortal";
+import ApplicantJobPortal from "./Pages/Applicant/ApplicantJobPortal";
+import PaymentAndSubscription from "./Pages/Company/CompanySubscription";
+import ChatAndSupport from './Pages/Public/ChatAndSupport';
+import ApplicantInterview from './Pages/Applicant/ApplicantInterview';
+import CompanyInterview from './Pages/Company/CompanyInterview';
+import AdminDashboard from './Pages/Admin/AdminDashboard';
 import jwt from 'jsonwebtoken'
 
 import { storeToken, getToken, removeToken } from '../src/Cache/User';

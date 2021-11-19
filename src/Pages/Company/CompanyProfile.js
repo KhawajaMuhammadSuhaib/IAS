@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useContext } from 'react';
-import NavBar from '../Components/Navbar';
-import CompanySideBar from '../Components/CompanySideBar';
-import Password from '../Components/PasswordFeild';
+import NavBar from '../../Components/Navbar';
+import CompanySideBar from '../../Components/CompanySideBar';
+import Password from '../../Components/PasswordFeild';
 import Icon from '@mdi/react';
 import { mdiCheckCircleOutline, mdiPencilOutline } from '@mdi/js';
-import dp from '../Logos/IAS-logo.png';
-import UserContext from '../Context/User';
+import dp from '../../Logos/IAS-logo.png';
+import UserContext from '../../Context/User';
 import axios from 'axios';
 import { useHistory } from 'react-router';
-import PopUp from "../Components/PopUp"
+import PopUp from "../../Components/PopUp"
 import { FilePond, registerPlugin } from "react-filepond";
 // Import FilePond styles
 import "filepond/dist/filepond.min.css";

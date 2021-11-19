@@ -1,18 +1,18 @@
 import React, { useEffect, useState,useContext } from 'react';
-import '../StyleSheets/web.css';
+import '../../StyleSheets/web.css';
 import { Dropdown } from 'react-dropdown-now';
 import 'react-dropdown-now/style.css';
-import NavBar from '../Components/Navbar';
-import ApplicantSideBar from '../Components/ApplicantSideBar';
-import AvailableJobs from '../Components/AvailableJobs';
-import dp from '../Logos/IAS-logo.png';
-import { SavedData } from '../Components/SavedJobs';
-import { MyJobs } from '../Components/MyJobs';
-import JobCard from '../Components/JobCard';
+import NavBar from '../../Components/Navbar';
+import ApplicantSideBar from '../../Components/ApplicantSideBar';
+import AvailableJobs from '../../Components/AvailableJobs';
+import dp from '../../Logos/IAS-logo.png';
+import { SavedData } from '../../Components/SavedJobs';
+import { MyJobs } from '../../Components/MyJobs';
+import JobCard from '../../Components/JobCard';
 import Icon from '@mdi/react';
 import { mdiMagnify, mdiMapMarker, mdiWindowClose, mdiBookmarkCheckOutline } from '@mdi/js';
 import { useHistory } from 'react-router';
-import UserContext from '../Context/User';
+import UserContext from '../../Context/User';
 import axios from 'axios';
 
 function ApplicantJobPortal() {
